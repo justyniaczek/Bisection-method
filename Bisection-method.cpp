@@ -24,11 +24,11 @@ int main()
     cin>> right_x;
     left_x_value = f(left_x);
     cout<< left_x_value<<" -  left_x_value"<<endl;
-    right_x_value= f(right_x);
+    right_x_value = f(right_x);
     cout<< right_x_value<<"  right_x_value"<<endl;
 
     ///Calculate the middle value
-    double middle_x=(left_x + right_x)/2.0;
+    double middle_x = (left_x + right_x)/2.0;
     cout << "Middle x is :  " << middle_x<<endl;
     cout << "Middle x value is:  " << f(middle_x)<< endl;
 
@@ -58,8 +58,7 @@ int main()
     }while(error>tolerance);
 
     cout<<"Root found at: "<<setprecision(8)<<middle_x<<endl;
-	cout<<"Number of iterations: "<<i<<endl;
-
+    cout<<"Number of iterations: "<<i<<endl;
 
     return 0;
 }
